@@ -44,6 +44,24 @@ public class Dictionary {
 		return checkList;
 	}
 	
+//	public List<RichWord> spellCheckTextDichotomic(List<String> inputTextList){
+//		List<RichWord> checkList = new ArrayList<>();
+//		boolean isCorrect = false;
+//		
+//		for(String i: inputTextList) {
+//			for(int index = ((parole.size())/2); index<(parole.size()); index++) {
+//				
+//				if(parole.get(index).equals(i)) {
+//					isCorrect=true;
+//				}else {
+//					System.out.println("Parola non trovata nella prima metà di dizionario");
+//				}
+//			}
+//		}
+//		
+//		return checkList;
+//	}
+	
 	public void removeDict() {
 		parole.clear();
 	}
